@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHAHAREAR EMON</title>
+    <H2>THIS IS THE REQUIRED WEB PAGE</H2>
+<style>
+        .container {
+  display: grid;
+  width: 750px;
+  height: 750px;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr 100px;
+  grid-gap:0;
+  grid-template-areas:
+      "header header header"
+      "sidebar content-1 content-1";
+}
+
+.header {
+  grid-area: header ;
+    background-color: lightskyblue;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  text-align: center;
+}
+
+.content-1 {
+  grid-area: content-1;
+      background-color: lightcoral;
+}
+
+.item {
+  color: #ffffff; 
+  border: 1px solid #171717;
+  
+
+}
+
+
+        </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="item header" fill=>  Header  </div>
+                <div class="item sidebar" >
+                    <svg height="100" width="100" >
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="yellow"  />
+                    Sorry, your browser does not support inline SVG.  
+                  </svg> 
+                  <svg height="100" width="100" >
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="yellow"  />
+                    Sorry, your browser does not support inline SVG.  
+                  </svg> 
+                  <svg height="100" width="100" >
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="yellow"  />
+                    Sorry, your browser does not support inline SVG.  
+                  </svg> 
+                </div>
+                <div class="item content-1">Content-1</div>
+                
+              </div>
+        
+      </body>
+</html>
